@@ -30,7 +30,6 @@ pnpm create astro@latest
 
    ```bash
    pnpm add sharp
-   pnpm astro add astro-icon
    ```
 
 4. Instala para los iconos de Astro:
@@ -64,7 +63,7 @@ pnpm create astro@latest
 4. Crea un nuevo repositorio privado en GitHub vinculado al proyecto:  
 
    ```bash
-   gh repo create Portafolio-Cloudfare --private --source=.
+   gh repo create Portafolio --public --source=.
    ```
 
 5. Cambia la rama predeterminada a `main`:  
